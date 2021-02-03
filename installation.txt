@@ -1,0 +1,20 @@
+Install under Window OS, at XAMPP
+1. Install composer v2.0.9
+	- download windows installer https://getcomposer.org/download/
+2. Install laravel v8.5.9
+	- open CMD as administrator
+	- composer global require laravel/installer
+	- laravel new jowin-supplycart
+	- create database jowin-supplycart at localhosst/phpmyadmin
+	- php artisan migrate --seed
+	- composer require laravel/passport
+	- php artisan migrate
+	- php artisan passport:install
+	- php artisan serve
+3. Install Vue
+	- npm install
+	- npm run dev
+	- npm install vue-router
+	
+4. Install tailwindcss
+	- pasted CDN to frontend <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
